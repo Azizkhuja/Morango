@@ -3,7 +3,7 @@
         height: 450px;
     }
     .carousel-image-1{
-        background: url("../../img/img-1.jpg");
+        background: url(../../morango/img/favicon/slider.jpg);
         -webkit-background-size: cover;
         -o-background-size: cover;
         -moz-background-size: cover;
@@ -11,15 +11,15 @@
         background-position: center;
     }
     .carousel-image-2{
-        background: url('../../img/img-2.jpg');
+        background: url(../../morango/img/favicon/slider-2.jpg);
         -webkit-background-size: cover;
         -o-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
         background-position: center;
     }
-    .carousel-image-4{
-        background: url('../../img/img-4.jpg');
+    .carousel-image-3{
+        background: url(../../morango/img/favicon/slider-3.jpg);
         -webkit-background-size: cover;
         -o-background-size: cover;
         -moz-background-size: cover;
@@ -28,7 +28,7 @@
     }
 }
 #home-heading{
-    @include parallax;
+    @include paralla;
     .home-heading-overlay{
         position: absolute;
         top: 0;
@@ -38,6 +38,7 @@
         background: rgba(0, 0, 0, 0.7);
     }
 }
+
 #main-footer{
     ul{
         .footer-icons{

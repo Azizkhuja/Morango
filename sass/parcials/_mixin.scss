@@ -1,7 +1,7 @@
-@mixin parallax{
+@mixin paralla{
     position: relative;
     min-height: 200px;
-    background-image: url('../../img/light.jpg');
+    background: url(../../morango/img/favicon/bg-light.jpg);
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
