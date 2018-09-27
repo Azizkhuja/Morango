@@ -1,0 +1,22 @@
+#price-info__book{
+    h1{
+        font-weight: 400;
+        font-size: 50px;
+    }
+    img{
+        box-shadow: 7px 4px $color-gray;
+    }
+}
+#faq{
+    .card{
+        border: #444;
+    }
+    a{
+        color: $color-white;
+        text-decoration: none;
+    }
+    .card-body,
+    .card-header{
+        background: #333;
+    }
+}

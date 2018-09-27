@@ -1,0 +1,141 @@
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden; }
+  body #toTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    outline: none;
+    color: #fff;
+    background: #E13247;
+    padding: 8px 15px;
+    cursor: pointer;
+    z-index: 99;
+    display: none;
+    border: none; }
+
+.navbar .nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important; }
+
+.navbar .nav-item.active {
+  border-left: 3px solid darkmagenta; }
+
+#showcase .carousel-item {
+  height: 450px; }
+
+#showcase .carousel-image-1 {
+  background: url("../../img/img-1.jpg");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+
+#showcase .carousel-image-2 {
+  background: url("../../img/img-2.jpg");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+
+#showcase .carousel-image-4 {
+  background: url("../../img/img-4.jpg");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background-image: url("../../img/light.jpg");
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+  #home-heading .home-heading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); }
+
+#main-footer ul .footer-icons {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  color: #fff;
+  border-radius: 100%;
+  outline: 0;
+  background-color: #212529;
+  box-sizing: border-box; }
+  #main-footer ul .footer-icons:hover {
+    background-color: #3b5998; }
+  #main-footer ul .footer-icons i {
+    font-size: 26px; }
+
+#main-footer .footer-social ul a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px; }
+  #main-footer .footer-social ul a:hover {
+    color: #7c7c7c; }
+  #main-footer .footer-social ul a i {
+    margin-right: 10px; }
+
+#price-info__book h1 {
+  font-weight: 400;
+  font-size: 50px; }
+
+#price-info__book img {
+  box-shadow: 7px 4px #7c7c7c; }
+
+#faq .card {
+  border: #444; }
+
+#faq a {
+  color: #fff;
+  text-decoration: none; }
+
+#faq .card-body,
+#faq .card-header {
+  background: #333; }
+
+#home-heading {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 200px;
+  background-image: url("../../img/light.jpg");
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+  #home-heading .home-heading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); }

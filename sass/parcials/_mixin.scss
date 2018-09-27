@@ -1,0 +1,13 @@
+@mixin parallax{
+    position: relative;
+    min-height: 200px;
+    background-image: url('../../img/light.jpg');
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: $color-white;
+}
