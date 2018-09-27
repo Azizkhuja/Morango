@@ -30,7 +30,7 @@ body {
   height: 450px; }
 
 #showcase .carousel-image-1 {
-  background: url(../../morango/img/favicon/slider.jpg);
+  background: url(../img/favicon/slider.jpg);
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -38,7 +38,7 @@ body {
   background-position: center; }
 
 #showcase .carousel-image-2 {
-  background: url(../../morango/img/favicon/slider-2.jpg);
+  background: url(../img/favicon/slider-2.jpg);
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -46,7 +46,7 @@ body {
   background-position: center; }
 
 #showcase .carousel-image-3 {
-  background: url(../../morango/img/favicon/slider-3.jpg);
+  background: url(../img/favicon/slider-3.jpg);
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
